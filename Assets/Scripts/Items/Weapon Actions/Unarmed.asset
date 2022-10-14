@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1b2ad3f6aecd147b241041e80d2579, type: 3}
+  m_Name: Unarmed
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 0}
+  itemName: Unarmed
+  modelPrefab: {fileID: 510589599364176346, guid: 5d15c990f4888bc4595ee5a040c61935,
+    type: 3}
+  isUnarmed: 1
+  right_hand_idle: right_arm_empty
+  left_hand_idle: left_arm_empty
+  oh_light_attack_1: 
+  oh_light_attack_2: 
+  oh_light_attack_3: 
+  oh_heavy_attack_1: 

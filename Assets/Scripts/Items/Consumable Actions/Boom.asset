@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178d8774b7e2b5a4a9215c2f506a31e4, type: 3}
+  m_Name: Boom
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 60cfb311baea63047aa567b415d9c652, type: 3}
+  itemName: Boom
+  type: 0
+  count: 99
+  useModel: {fileID: 5863737019311774374, guid: cc6dbb03c620d0541b06754f1f6a2401,
+    type: 3}
+  useFX: {fileID: 0}
+  useAnimation: Throw
+  baseDamage: 100
+  boomRange: 5
+  rangeDamage: 50
+  throwModel: {fileID: 5863737019311774374, guid: e7e9fb5db61254c46ab150c5906d6201,
+    type: 3}
+  forwardVelocity: 500
+  upVelocity: 100
+  damageFX: {fileID: 1056904543853562, guid: 4cf45cdce36e66e4a93614abb5ae7821, type: 3}
+  damageFXClearTime: 3

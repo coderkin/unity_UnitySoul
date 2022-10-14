@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178d8774b7e2b5a4a9215c2f506a31e4, type: 3}
+  m_Name: Napalm Bomb
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: eb140d569f803154085de021eb65feeb, type: 3}
+  itemName: Napalm Bomb
+  type: 0
+  count: 99
+  useModel: {fileID: 5863737019311774374, guid: cc6dbb03c620d0541b06754f1f6a2401,
+    type: 3}
+  useFX: {fileID: 0}
+  useAnimation: Throw
+  baseDamage: 50
+  boomRange: 0
+  rangeDamage: 0
+  throwModel: {fileID: 4695910559384843671, guid: 856239c9886296540b039020592510f7,
+    type: 3}
+  forwardVelocity: 500
+  upVelocity: 100
+  damageFX: {fileID: 7536935020932593118, guid: 63f3c37828adc634ab9c41713b7449c5,
+    type: 3}
+  damageFXClearTime: 5
