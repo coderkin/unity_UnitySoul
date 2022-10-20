@@ -78,7 +78,37 @@ public class Dragme : MonoBehaviour, IDragHandler,IPointerDownHandler,IPointerUp
         bar = dragbar.transform.Find("Bar");
         radius = dragbar.GetComponent<RectTransform>().rect.width / 2 - radiusOffset;
         dragbar.SetActive(false);
+
+        /*
+         * TestExtends
+         * Test
+         * TestInterface Walk
+         */
+        //Test t = new Test();
+        //t.Talk();
+        //t.Walk();
+        //t.Jump();
+
+        /*
+         * TestExtends
+         * Test
+         */
+        TestExtends t1 = new Test();
+        t1.Talk();
+        t1.Jump();
+
+        /*
+         * TestExtends
+         * Test
+         * TestInterface Walk
+         */
+        //TestInterface t2 = new Test();
+        //t2.Talk();
+        //t2.Walk();
+
+        //Test t3 = new Test();
+        //t3.Walk();
     }
 
-    
+
 }

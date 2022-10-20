@@ -36,7 +36,7 @@ namespace CF {
         public bool canDoCombo;
 
         public bool gameOver;
-        public int resurrectionCount = 0;
+        public int resurrectionCount = 0;   
         public Text resurrectionCountText;
 
         RaycastHit hit;
@@ -212,7 +212,7 @@ namespace CF {
             //血量恢复
             playerStates.FullHealth();
 
-            transform.position = new Vector3(-3.29f,0.44f,8.99f);
+            transform.position = new Vector3(0.05f, 10.121f, -0.1f);
             transform.rotation = Quaternion.identity;
 
             cameraHandler.RestartGame();
